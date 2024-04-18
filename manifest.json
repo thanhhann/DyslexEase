@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "DylexEase extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "avatardemo.png"
+    },
+  
+
+    "permissions":[
+      "activeTab",
+      "contextMenus", 
+      "tabs",
+      "tabCapture",
+      "storage"
+    ],
+
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"],
+        "css": ["content.css"]
+      }
+    ]
+  }
