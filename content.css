@@ -1,6 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 @font-face {
-    font-family: 'vietomotype';
-    src: url('C:\Users\DELL\OneDrive\Hann\Hann_coding_stuff\demo\DyslexEase\omotype_viethoa.ttf');
+    font-family: 'Vietomotype';
+    src: url('D:\Hann\DysleEase\DyslexEase\omotype_viethoa.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
-/*demo\DyslexEase\
+
+body {
+    font-family: 'Vietomotype';
+}
