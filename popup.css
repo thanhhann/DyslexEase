@@ -1,14 +1,22 @@
+@font-face {
+  font-family: 'Vietomotype';
+  src: url('D:\Hann\DysleEase\DyslexEase\omotype_viethoa.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #111315;
   height: 250px;
   width: 250px;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Vietomotype';
 }
 
 h1 {
   color: #ffffff !important;
   text-align: center;
   font-size: large;
+  font-family: 'Vietomotype';
 }
 
 .slogan {
