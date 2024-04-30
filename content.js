@@ -1,4 +1,5 @@
 
+
 //Add infinite loop for FontChangeHandler function to be called every 1000 ms
 //Syntax: setInterval(<function_name>, <time_between_calls (count as milli-seconds)>) -> to solve the loading halfway bugs
 const Interval = setInterval(FontChangeHandler, 1000);
@@ -25,7 +26,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendMessage) => {
       // Do something with each element
       console.log(element);
       element.style = `
-                font-family: "vietomotype";
+                font-family: 'Vietomotype';
                 font-weight: normal;
                 font-style: normal;
                 `;

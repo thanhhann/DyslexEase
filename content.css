@@ -1,8 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* body {
+    color: grey;
+} */
+
 @font-face {
     font-family: 'Vietomotype';
-    src: url('D:\Hann\DysleEase\DyslexEase\omotype_viethoa.ttf');
+    src: url('./font/omotype_viethoa.woff') format('woff'),
+         url('./font/omotype_viethoa.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
-
+  }
