@@ -5,8 +5,8 @@
 
 @font-face {
     font-family: 'Vietomotype';
-    src: url('./font/omotype_viethoa.woff') format('woff'),
-         url('./font/omotype_viethoa.woff2') format('woff2');
+    src: url('./font/omotype_viethoa_fn.woff') format('woff'),
+         url('./font/omotype_viethoa_fn.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }

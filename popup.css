@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Vietomotype";
-  src: url("./font/omotype_viethoa.woff") format("woff"),
-    url("./font/omotype_viethoa.woff2") format("woff2");
+  src: url("./font/omotype_viethoa_fn.woff") format("woff"),
+    url("./font/omotype_viethoa_fn.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,20 +16,20 @@ body {
   font-size: 2em;
 }
 
-/* .head {
-  color: #383838;
-  text-align: center ;
-  font-family: 'Vietomotype';
-  height: 150px;
-} */
+.head{
+  justify-content: center;
+  text-align: center;
+  
+}
 
 .title {
+  
   /* color: #383838 !important; */
   color: #3f4b7f !important;
   text-align: center;
   font-family: "Vietomotype";
   height: 20px;
-  /* font-size: 1.5em; */
+  
 }
 
 .slogan {
@@ -38,7 +38,13 @@ body {
   text-align: center;
   font-family: "Vietomotype";
   line-height: 0.7em;
-  /* font-size: 2em; */
+  
+}
+
+.popupcontainer {
+  justify-content: center;
+  text-align: center;
+  
 }
 
 .on-btn {
@@ -70,7 +76,4 @@ body {
   /* box-shadow: 2px 2px; */
 }
 
-.popupcontainer {
-  justify-content: center;
-  text-align: center;
-}
+
